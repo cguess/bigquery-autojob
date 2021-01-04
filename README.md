@@ -28,7 +28,7 @@ If the default behaviour does not suit your needs, it can be modified for all or
   ```bash
   $> git clone "https://github.com/tfabien/bigquery-autoload/"              \
      && cd "bigquery-autoload"                                              \
-     && gcloud functions deploy "bigquery-autoload"                         \
+     && gcloud functions deploy "autoload"                         \
                       --trigger-bucket "bq-autoload"                        \
                       --set-env-vars "PROJECT_ID={{YOUR_GCP_PROJECT_ID}}"   \
                       --runtime "nodejs10"                                  \
